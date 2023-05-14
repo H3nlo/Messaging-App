@@ -11,7 +11,7 @@ class Server:
         self.users = {}
 
     def start(self):
-        ip = '0.0.0.0'
+        ip = '127.0.0.1'
         print(f"Server IP address: {ip}")
         port = 8080
 
