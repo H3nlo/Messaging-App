@@ -51,7 +51,7 @@ class Server:
             print(message.strip())
 
             # Send a message to the new client confirming their connection
-            conn.send("You have connected to the server.\n".encode())
+            conn.send("You have connected to the server.\n hi".encode())
 
             # Receive and broadcast messages
             while True:
